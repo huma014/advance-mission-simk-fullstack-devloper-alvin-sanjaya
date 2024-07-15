@@ -1,0 +1,227 @@
+.signin {
+  background-color: #d3d3d3;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.login {
+  position: relative;
+  height: 450px;
+  width: 360px;
+  margin: auto;
+  padding: 50px 50px;
+  border-radius: 20px;
+  }
+
+form {
+  padding-top: 80px;
+}
+
+.active {
+  border-bottom: 2px solid #ffffff;
+}
+.error-message {
+    color:rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size:15px;
+}
+.nonactive {
+  color: rgba(255, 255, 255, 0.500);
+  text-align: center;
+}
+span{
+    color:white;
+}
+h2 {
+    color: rgba(255, 255, 255, 1);
+  padding-left: 12px;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  letter-spacing: 2px;
+  display: inline-block;
+  font-weight: 100;
+}
+
+h2:first-child {
+  padding-left: 0px;
+}
+
+span {
+  text-transform: uppercase;
+  font-size: 12px;
+  opacity: 0.4; 
+  display: inline-block;
+  position: relative;
+  top: -65px;
+  transition: all 0.5s ease-in-out;
+}
+
+.text {
+  border: none;
+  width: 89%;
+  padding: 10px 20px;
+  display: block;
+  height: 15px;
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+  border: 2px solid rgba(255, 255, 255, 0);
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.text:focus {
+  outline: 0;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0);
+}
+
+.text:focus + span {
+  opacity: 0.6;
+}
+
+input[type="text"],
+input[type="password"] {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+
+
+input {
+  display: inline-block;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+h2,
+span,
+.custom-checkbox {
+  margin-left: 20px;
+}
+
+.signin {
+  background-color: #808080;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF;
+  margin:auto;
+  width: 50%;
+  padding: 10px 20px;
+  display: block;
+  height: 39px;
+  border-radius: 20px;
+  margin-top: 30px;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  text-transform: uppercase;
+}
+
+.signin:hover {
+  background: #cecece;
+  box-shadow: 0px 4px 35px -5px #ffffff;
+  cursor: pointer;
+}
+
+.signin:focus {
+  outline: none;
+}
+
+a {
+  text-align: center;
+  display: block;
+  top: 120px;
+  position: relative;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+ .cloud {
+   opacity: 0.3;
+   width: 100%;
+   max-width: 700px;
+   height: auto;
+ }
+ 
+ 
+ #cloud1 {
+   z-index: 1;
+   position: absolute;
+   top: -40px;
+   left: -100px;
+ }
+ 
+ #cloud2 {
+   z-index: 2;
+   position: absolute;
+   top: 20px;
+   left: -300px;
+ }
+ 
+ #cloud3 {
+   z-index: 3;
+   position: absolute;
+   top: -400px;
+   left: -200px;
+ }
+ 
+ #cloud4 {
+   z-index: 4;
+   position: absolute;
+   top:-200px;
+   left: 40px;
+ }
+
+ .rainbow {
+  animation: colorRotate 6s linear 0s infinite;
+  }
+
+  @keyframes colorRotate {
+  from {
+      color: #000000;
+  }
+  10% {
+      color: #3f3d57;
+  }
+  50% {
+      color: #497047;
+  }
+  75% {
+      color: #503e47;
+  }
+  100% {
+      color: #44445c;
+  }
+  }
+  
+  .wrapper { 
+  background: linear-gradient(124deg, #000000, #525c5e, #534352, #4d465e, #403d52, #554c72, #4d4c57, #535353, #000000);
+  background-size: 1800% 1800%;
+  
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;}
+  
+  @-webkit-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @keyframes rainbow { 
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
